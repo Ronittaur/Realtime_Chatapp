@@ -11,7 +11,7 @@ import { ChatProvider } from '../context/ChatContext'
 const App = () => {
   const{ authUser } = useContext(AuthContext)
   return (
-    <div className="min-h-screen w-full bg-[url('./src/assets/bgImage.svg')]
+    <div className="min-h-screen w-full bg-[url('/bgImage.svg')]
     bg-cover bg-no-repeat bg-center">
       <Toaster/>
       <Routes>
