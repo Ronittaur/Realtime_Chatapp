@@ -1,0 +1,8 @@
+# Query: LoginPage
+# Flags: CaseSensitive
+
+2 results - 1 file
+
+client\src\pages\LoginPage.jsx:
+   4: const Login = () => {
+  23: export default Login
