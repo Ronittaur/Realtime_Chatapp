@@ -9,29 +9,7 @@
 - 🧠 **Context-based State Management**
 - ☁️ **Deployed-ready structure** (Frontend & Backend separation)
 
-## 🧩 Project Structure
-\`\`\`
-Chatapp/
-├── client/            # React Frontend
-│   ├── src/
-│   │   ├── pages/     # Login, Home, Profile
-│   │   ├── components/# Sidebar, ChatContainer, RightSidebar
-│   │   ├── context/   # Auth & Chat Context
-│   │   ├── assets/    # Images & Icons
-│   │   └── App.jsx
-│   ├── package.json
-│   └── vite.config.js
-│
-└── server/            # Node.js Backend
-    ├── controllers/   # Message & User Controllers
-    ├── models/        # Mongoose Models
-    ├── routes/        # Express Routes
-    ├── middleware/    # Authentication Middleware
-    ├── lib/           # Database & Cloudinary Utils
-    ├── server.js      # Entry point
-    └── package.json
-\`\`\`
-    ## 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 **Frontend:**
 - React (Vite)
