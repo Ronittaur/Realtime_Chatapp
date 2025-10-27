@@ -10,6 +10,7 @@
 - ☁️ **Deployed-ready structure** (Frontend & Backend separation)
 
 ## 🧩 Project Structure
+\`\`\`
 Chatapp/
 ├── client/            # React Frontend
 │   ├── src/
@@ -29,7 +30,7 @@ Chatapp/
     ├── lib/           # Database & Cloudinary Utils
     ├── server.js      # Entry point
     └── package.json
-
+\`\`\`
     ## 🛠️ Tech Stack
 
 **Frontend:**
