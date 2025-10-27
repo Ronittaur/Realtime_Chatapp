@@ -1,11 +1,3 @@
-cat << 'EOF' > README.md
-# 💬 Realtime Chat Application
-
-A full-stack **real-time chat application** built with **React (Vite)** on the frontend and **Node.js + Express + MongoDB** on the backend.  
-It enables users to communicate instantly, manage profiles, and experience smooth, modern UI interactions.
-
----
-
 ## 🚀 Features
 
 - 🔐 **User Authentication** (Login & Register)
@@ -17,11 +9,7 @@ It enables users to communicate instantly, manage profiles, and experience smoot
 - 🧠 **Context-based State Management**
 - ☁️ **Deployed-ready structure** (Frontend & Backend separation)
 
----
-
 ## 🧩 Project Structure
-
-\`\`\`
 Chatapp/
 ├── client/            # React Frontend
 │   ├── src/
@@ -41,14 +29,12 @@ Chatapp/
     ├── lib/           # Database & Cloudinary Utils
     ├── server.js      # Entry point
     └── package.json
-\`\`\`
 
----
-
-## 🛠️ Tech Stack
+    ## 🛠️ Tech Stack
 
 **Frontend:**
 - React (Vite)
+- Context API
 - Tailwind CSS (or standard CSS)
 - Axios
 
@@ -61,63 +47,43 @@ Chatapp/
 
 **Other Tools:**
 - Socket.IO (for real-time communication)
+- ESLint (for code quality)
 - Vercel / Render deployment ready
-
----
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
-\`\`\`bash
 git clone https://github.com/<your-username>/Realtime_Chatapp.git
 cd Realtime_Chatapp
-\`\`\`
 
 ### 2️⃣ Install dependencies
-
 #### For Backend:
-\`\`\`
 cd server
 npm install
-\`\`\`
 
 #### For Frontend:
-\`\`\`
 cd ../client
 npm install
-\`\`\`
 
 ### 3️⃣ Set up environment variables
-
 Create \`.env\` files in both **client** and **server** directories as needed:
-
 **For server (.env):**
-\`\`\`
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 CLOUDINARY_CLOUD_NAME=your_cloud_name
-\`\`\`
 
-### 4️⃣ Run the application
+4️⃣ Run the application
 
 #### Start Backend:
-\`\`\`
 cd server
 npm start
-\`\`\`
 
 #### Start Frontend:
-\`\`\`
 cd client
 npm run dev
-\`\`\`
 
 Now open the browser and visit:
-\`\`\`
 http://localhost:5173
-\`\`\`
-
----
 
