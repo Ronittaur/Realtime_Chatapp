@@ -63,6 +63,4 @@ npm start
 cd client
 npm run dev
 
-Now open the browser and visit:
-http://localhost:5173
 
